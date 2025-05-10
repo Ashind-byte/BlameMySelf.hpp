@@ -1,6 +1,6 @@
 😅 **BlameMyself – Because Writing #includes is Just Too Much**
 
-Ever sat down to write a C++ header and thought, “I wish someone else could just deal with all the #include nonsense?” Well, now you can! Meet BlameMyself – the ultimate tool for generating C++ header and source files with standard library includes, because obviously you are to blame for starting another C++ project in the first place.
+Ever sat down to write a C++ header and thought, “I wish someone else could just deal with all the #include nonsense?” Well, now you can! Meet BlameMyself – the ultimate tool for generating C++ header and source files with standard library includes, because obviously you are to blame for starting another C++ project in the first place.This is my mini hobby project so feel free to blame me :D.
 
 This little utility lets you:
 
