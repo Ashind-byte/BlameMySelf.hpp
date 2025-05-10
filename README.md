@@ -16,14 +16,20 @@ It’s like a templating engine, but with more sarcasm and less XML.
 
 **🧪 Example**
 Step 1: Create a config file
-Include.conf with the following format :
+Include.conf with the following format(ignore the spaces in between lines) :
 
 vector=#include<vector>
+
 list=#include<list>
+
 map=#include<map>
+
 unordered_map=#include<unordered_map>
+
 iostream=#include<iostream>
+
 string=#include<string>
+
 set=#include<set>
 
 **🏭Step 2: Build it**
