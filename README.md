@@ -35,10 +35,15 @@ string=#include<string>
 set=#include<set>
 
 **🏭Step 2: Build it**
+
 cd BlameMyself.hpp
+
 mkdir build
+
 cd build
+
 cmake ..
+
 make
 
 This will compile the program and place the executable and Includes.conf inside the build/HeaderGen/ directory.
