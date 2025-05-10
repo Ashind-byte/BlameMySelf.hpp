@@ -53,3 +53,18 @@ This will compile the program and place the executable and Includes.conf inside 
 ./HeaderGen/HeaderGen <FileName> Includes.conf
 
 
+⚠️ Platform Disclaimer (aka “It Works on My Machine™”)
+
+This project was tested on Linux, where make, g++, and hopes-and-dreams usually work together in harmony.
+
+As for Windows and macOS? Well...
+
+🪟 Windows: It might build if you squint hard enough and CMake feels generous. You’ll probably need a C++17-compatible compiler like MSVC and might want to run it from a terminal like PowerShell or Git Bash so it doesn’t cry.
+
+🍎 macOS: It should work if Xcode’s CLI tools are installed... but if it throws obscure errors, just know I, too, am confused.
+
+If you get it working on either, congratulations — you're officially part of QA now! 🧪✨
+
+Feel free to open a PR or issue titled: “Fix it, coward.”
+
+
