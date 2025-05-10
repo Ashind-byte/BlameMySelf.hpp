@@ -49,7 +49,9 @@ Include.conf with the following format(ignore the spaces in between lines) :
 This will compile the program and place the executable and Includes.conf inside the build/HeaderGen/ directory.
 
 **Step 3: Run it 🏃‍♂️🏃‍♂️🏃‍♂️**
+
     change your directory to the HeaderGen folder
+
     ./HeaderGen <FileName> Includes.conf
 
 
