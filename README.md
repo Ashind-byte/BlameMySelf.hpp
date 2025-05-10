@@ -20,37 +20,37 @@ It’s like a templating engine, but with more sarcasm and less XML.
 Step 1: Create a config file
 Include.conf with the following format(ignore the spaces in between lines) :
 
-vector=#include<vector>
-
-list=#include<list>
-
-map=#include<map>
-
-unordered_map=#include<unordered_map>
-
-iostream=#include<iostream>
-
-string=#include<string>
-
-set=#include<set>
+    vector=#include<vector>
+    
+    list=#include<list>
+    
+    map=#include<map>
+    
+    unordered_map=#include<unordered_map>
+    
+    iostream=#include<iostream>
+    
+    string=#include<string>
+    
+    set=#include<set>
 
 **🏭Step 2: Build it**
-
-cd BlameMyself.hpp
-
-mkdir build
-
-cd build
-
-cmake ..
-
-make
+    
+    cd BlameMyself.hpp
+    
+    mkdir build
+    
+    cd build
+    
+    cmake ..
+    
+    make
 
 This will compile the program and place the executable and Includes.conf inside the build/HeaderGen/ directory.
 
 **Step 3: Run it 🏃‍♂️🏃‍♂️🏃‍♂️**
 
-./HeaderGen/HeaderGen <FileName> Includes.conf
+    ./HeaderGen/HeaderGen <FileName> Includes.conf
 
 
 ⚠️ Platform Disclaimer (aka “It Works on My Machine™”)
